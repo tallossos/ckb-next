@@ -63,6 +63,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
+       apt install libudev-dev -y
        ./quickinstall
 
     - name: Perform CodeQL Analysis
