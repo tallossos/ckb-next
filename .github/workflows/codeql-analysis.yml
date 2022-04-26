@@ -63,7 +63,6 @@ jobs:
     #    uses a compiled language
 
     - run: |
-       cd ckb-next
        ./quickinstall
 
     - name: Perform CodeQL Analysis
